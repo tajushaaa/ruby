@@ -6,13 +6,13 @@ puts "Enter second number: "
 num2 = gets.chomp().to_f
 
 if operator == "+"
-    puts (num1 + num2)
+    puts ("Result: " + (num1 + num2).to_s)
 elsif operator == "-"
-    puts (num1 - num2)
+    puts ("Result: " + (num1 - num2).to_s)
 elsif operator == "*"
-    puts (num1 * num2)
+    puts ("Result: " + (num1 * num2).to_s)
 elsif operator == "/"
-    puts (num1 / num2)
-else
+    puts ("Result: " + (num1 / num2).to_s)
+else6
     puts "Invalid operator"
 end
